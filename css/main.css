@@ -52,18 +52,14 @@ nav .container-fluid ul li > a{ font-size: 19px;}
     opacity: 1 !important;
 }
 
-.carousel-inner{}
+.carousel-indicators button{ background-color: white !important;}
 
-.carousel-indicators button{ background-color: white !important; border: solid 1px white;}
+.carousel-item{height: 800px;}
 
-.carousel-item{ border: solid 1px red; height: 800px;}
-
-.carousel-item div{ object-fit: contain; border: solid 1px greenyellow;}
-
-.carousel-item div img{ border: solid 1px white;}
+.carousel-item div{ object-fit: contain;}
 
 .carousel-item:first-child div > img,
-.carousel-item:nth-child(5) div > img{ width: 400px !important; height: 600px;}
+.carousel-item:nth-child(5) div > img{ width: 45% !important; height: 600px;}
 
 .carousel-item:nth-child(2) div > img,
 .carousel-item:nth-child(3) div > img,
